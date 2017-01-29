@@ -1,0 +1,30 @@
+{
+  "name": "select-multiple-emails-with-shift",
+  "version": "1.0.0",
+  "description": "Live version: to be added.herokuapp.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrBerebecki/select-multiple-emails-with-shift.git"
+  },
+  "author": "Piotr Berebecki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiotrBerebecki/select-multiple-emails-with-shift/issues"
+  },
+  "homepage": "https://github.com/PiotrBerebecki/select-multiple-emails-with-shift#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
