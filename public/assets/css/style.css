@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: #1075C3;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.inbox {
+  width: 100%;
+  background: white;
+  box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+}
+
+@media (min-width: 769px) {
+  .inbox {
+    width: 50%;
+    margin: 3rem auto;
+    border-radius: 3px;
+  }
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  height: 3.2rem;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 3.2rem;
+  border-right: 1px solid #D1E2FF;
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  cursor: pointer;
+}
+
+p {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
