@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   background: #1075C3;
+  user-select: none;
 }
 
 *, *:before, *:after {
