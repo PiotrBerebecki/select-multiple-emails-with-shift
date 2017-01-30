@@ -2,7 +2,7 @@
 
 Live version: https://blooming-lake-76654.herokuapp.com
 
-<!-- <img src="./src/graphics/screencast.gif" width="275px" height="auto"> -->
+<img src="./src/graphics/screencast.gif" width="275px" height="auto">
 
 ## Tech stack
 * Node
