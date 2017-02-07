@@ -7,6 +7,7 @@ Live version: https://blooming-lake-76654.herokuapp.com
 ## Tech stack
 * Node
 * Vanilla JavaScript
+* Flexbox
 
 ## Getting started
 
